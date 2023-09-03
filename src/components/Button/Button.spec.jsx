@@ -1,7 +1,7 @@
 import '@testing-library/jest-dom'
 import { Button } from '.'
 import userEvent from '@testing-library/user-event'
-const { render, screen } = require("@testing-library/react")
+import { render, screen } from "@testing-library/react";
 
 describe('<Button />', () => {
     it('should render the button with the text "Load more"', () => {
